@@ -1,0 +1,57 @@
+TRUSTNODE PRIVACY POLICY
+Effective Date: July 15, 2026
+Last Updated: July 21, 2026
+
+1. DATA OPERATOR
+Pitolin Mikhail Evgenievich
+Contact: mikhailpitolin@gmail.com
+
+2. WHAT DATA WE PROCESS
+- Voice data (biometric personal data) — only with explicit separate consent under Art. 11 of Federal Law No. 152-FZ, processed solely on the user's device
+- Message text for fraud analysis — processed exclusively locally, not shared with third parties
+- Screen screenshots — analyzed locally, personally identifiable information (PII) of third parties is automatically masked
+- Network traffic — when using the VPN feature, the connection is protected through an encrypted tunnel
+
+3. PURPOSES OF PROCESSING
+Protection of the user from telephone fraud and social engineering (Art. 6 para. 1 clause 5 of 152-FZ — protection of life and health)
+
+4. LEGAL BASIS
+Consent of the personal data subject (Art. 6 para. 1 clause 1 of 152-FZ) and protection of legitimate rights and interests (Art. 6 para. 1 clause 5 of 152-FZ)
+
+5. DISCLOSURE TO THIRD PARTIES
+All computations are performed primarily on the user's device. Data may be sent to external servers only with the user's explicit consent and solely for protection purposes (link reputation checking). Without explicit consent, no data is transferred.
+
+5.1. CROSS-BORDER DATA TRANSFER (Art. 12 of 152-FZ)
+Not carried out.
+
+6. DATA STORAGE AND DESTRUCTION
+6.1. All data is processed in the device's RAM. Analysis results (threat metadata) are stored in an encrypted local database for no more than 24 hours, after which they are automatically deleted. Audio files from voice analysis are not retained: recorded voice is processed immediately and deleted right after processing (for call recordings — once recognition completes).
+6.2. Unencrypted analytical data (screenshots, message text) is NOT saved to disk.
+6.3. Personal data is destroyed by deleting the relevant records from the encrypted database and clearing SharedPreferences upon expiry of the retention period, upon consent revocation, or upon the data subject's request.
+6.4. Users may delete all app data through device settings (App Data → Clear) or through the app interface (Settings → Privacy → Delete My Data).
+
+7. DATA SUBJECT RIGHTS
+You have the right to:
+- Obtain information about the personal data being processed (Art. 14 of 152-FZ)
+- Request deletion or correction of personal data (Art. 14 of 152-FZ)
+- Withdraw consent to the processing of personal data at any time (Art. 9 of 152-FZ)
+- Appeal the operator's actions to the authorized authority (Roskomnadzor)
+To exercise your rights: mikhailpitolin@gmail.com
+
+8. BIOMETRIC PERSONAL DATA
+8.1. Voice data (biometric personal data) is processed only on the basis of separate written consent in accordance with Art. 11 of 152-FZ.
+8.2. Without such consent, voice recording and processing are blocked at the software level.
+8.3. Consent may be withdrawn at any time through the app settings.
+
+9. AGE RESTRICTIONS
+TrustNode is intended for individuals over the age of 16. Processing of personal data of individuals under 16 is not performed. If use by a person under 16 is detected, all such user data is immediately deleted.
+
+10. GOVERNING LAW
+This Privacy Policy and the relationship between the operator and the user are governed by the law of the Russian Federation, including Federal Law No. 152-FZ of July 27, 2006 "On Personal Data."
+
+11. CHANGES TO THIS POLICY
+The operator reserves the right to amend this Privacy Policy. The new version takes effect upon its publication in the app. Continued use of the app after changes to the Policy constitutes acceptance of the new terms.
+
+12. CONTACT INFORMATION
+Operator: Pitolin Mikhail Evgenievich
+Email: mikhailpitolin@gmail.com

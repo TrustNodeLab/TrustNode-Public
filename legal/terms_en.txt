@@ -1,0 +1,43 @@
+TRUSTNODE END USER LICENSE AGREEMENT (EULA)
+App: "TrustNode"
+Document Version: 1
+
+1. PARTIES AND RIGHTS HOLDER
+1.1. This agreement governs the relationship between the rights holder of the computer program "TrustNode" (hereinafter — the "Program") and the user of the Program (hereinafter — the "User").
+1.2. All exclusive rights to the source and object code, interface, documentation, databases, and machine learning models comprising the Program belong to Pitolin Mikhail Evgenievich (hereinafter — the "Rights Holder"), unless expressly stated otherwise in a separate license for third-party components.
+1.3. The Program is provided to the User under an "as is" license to the extent defined by this agreement.
+
+2. SUBJECT OF AGREEMENT
+2.1. The Rights Holder grants the User a non-exclusive, non-transferable license to install and use one copy of the Program on the User's device for personal, non-commercial purposes.
+2.2. Commercial use, rental, resale, or providing access to third parties on a commercial basis without the written consent of the Rights Holder is prohibited.
+
+3. RESTRICTIONS
+3.1. The User is prohibited from: decompiling, disassembling, modifying, creating derivative works based on the Program, removing or hiding copyright notices and information about the Rights Holder, or circumventing technical restrictions.
+3.2. Violation of clause 3.1 results in termination of the license and may lead to civil and other liability in accordance with applicable law.
+
+4. INTELLECTUAL PROPERTY
+4.1. All rights to the intellectual property included in the Program are retained by the Rights Holder. This agreement does not provide for the transfer of exclusive rights.
+4.2. Depersonalized generalized information necessary for the operation of local models remains part of the Program; its use by third parties without the consent of the Rights Holder is not permitted.
+
+5. LIMITATION OF LIABILITY AND DISCLAIMER OF WARRANTIES
+5.1. The Program is designed to reduce the risk of fraud and is not a legal, financial, or other professional consultation.
+5.2. The Rights Holder does not guarantee the absence of errors, 100% classification accuracy, or uninterrupted operation on all devices and configurations. The User independently assesses risks and makes decisions.
+5.3. To the maximum extent permitted by law, the Rights Holder is not liable for indirect damages, lost profits, actions of third parties, or decisions made by the User based on Program signals.
+
+6. DATA AND CONFIDENTIALITY
+6.1. The primary data processing is performed locally on the device. If the User enables features that use the network (e.g., link checking or external APIs), processing is governed by the policies of the respective services and the Program settings.
+6.2. The User undertakes not to use the Program in violation of personal data laws and the secrecy of communications.
+
+7. CHANGES AND TERMINATION
+7.1. The Rights Holder may update the text of this agreement. Continued use after notification of a new version constitutes acceptance, unless otherwise provided by law.
+7.2. In the event of a license violation, the license terminates automatically; the User must cease use and delete the Program.
+
+8. GOVERNING LAW
+8.1. The relations of the parties are governed by the law of the Russian Federation. Disputes are subject to consideration in court at the place of registration of the Rights Holder, unless otherwise established by mandatory norms.
+
+9. CONTACT
+9.1. For questions regarding the license and rights to the Program, contact the Rights Holder through the official channels specified in the app description.
+
+The User confirms that they have read the text of this agreement and accept its terms in full.
+
+© Pitolin Mikhail Evgenievich. All rights reserved.
