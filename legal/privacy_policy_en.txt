@@ -1,16 +1,18 @@
 TRUSTNODE PRIVACY POLICY
 Effective Date: July 15, 2026
-Last Updated: July 21, 2026
+Last Updated: August 21, 2026
 
 1. DATA OPERATOR
-Pitolin Mikhail Evgenievich
+Pitolin Mikhail Evgenievich (individual, trade name: TrustNode Lab)
+Tax ID (INN): 745313435050
+Registered address: 18 Zaltsmana St., Chelyabinsk, Chelyabinsk Oblast, Russia
 Contact: mikhailpitolin@gmail.com
 
 2. WHAT DATA WE PROCESS
 - Voice data (biometric personal data) — only with explicit separate consent under Art. 11 of Federal Law No. 152-FZ, processed solely on the user's device
 - Message text for fraud analysis — processed exclusively locally, not shared with third parties
-- Screen screenshots — analyzed locally, personally identifiable information (PII) of third parties is automatically masked
-- Network traffic — when using the VPN feature, the connection is protected through an encrypted tunnel
+- Screen screenshots — analyzed locally, personally identifiable information (PII) is automatically masked before processing
+- Behavioral data (centroids) — anonymous statistical models of user behavior used to improve fraud detection accuracy. Contains no personal data, stored in encrypted form
 
 3. PURPOSES OF PROCESSING
 Protection of the user from telephone fraud and social engineering (Art. 6 para. 1 clause 5 of 152-FZ — protection of life and health)
@@ -19,16 +21,18 @@ Protection of the user from telephone fraud and social engineering (Art. 6 para.
 Consent of the personal data subject (Art. 6 para. 1 clause 1 of 152-FZ) and protection of legitimate rights and interests (Art. 6 para. 1 clause 5 of 152-FZ)
 
 5. DISCLOSURE TO THIRD PARTIES
-All computations are performed primarily on the user's device. Data may be sent to external servers only with the user's explicit consent and solely for protection purposes (link reputation checking). Without explicit consent, no data is transferred.
+All computations are performed on the user's device. Data is NOT transferred to external servers.
 
 5.1. CROSS-BORDER DATA TRANSFER (Art. 12 of 152-FZ)
 Not carried out.
 
 6. DATA STORAGE AND DESTRUCTION
-6.1. All data is processed in the device's RAM. Analysis results (threat metadata) are stored in an encrypted local database for no more than 24 hours, after which they are automatically deleted. Audio files from voice analysis are not retained: recorded voice is processed immediately and deleted right after processing (for call recordings — once recognition completes).
-6.2. Unencrypted analytical data (screenshots, message text) is NOT saved to disk.
-6.3. Personal data is destroyed by deleting the relevant records from the encrypted database and clearing SharedPreferences upon expiry of the retention period, upon consent revocation, or upon the data subject's request.
-6.4. Users may delete all app data through device settings (App Data → Clear) or through the app interface (Settings → Privacy → Delete My Data).
+6.1. All data is processed in the device's RAM. Analysis results (threat metadata) are stored in an encrypted local database for no more than 24 hours, after which they are automatically deleted.
+6.2. Call recordings (.tnc audio files) are stored temporarily in encrypted form (AES-256-GCM) for no more than 24 hours. Automatic deletion occurs at each app launch and via the periodic cleanup mechanism (WorkManager). Recordings are deleted after speech recognition completes or after 24 hours — whichever comes first.
+6.3. Unencrypted analytical data (screenshots, message text) is NOT saved to disk.
+6.4. Behavioral data (centroids) is stored in encrypted form and deleted when all app data is removed.
+6.5. Personal data is destroyed by deleting the relevant records from the encrypted database and clearing SharedPreferences upon expiry of the retention period, upon consent revocation, or upon the data subject's request.
+6.6. Users may delete all app data through device settings (App Data → Clear) or through the app interface (Settings → Privacy → Delete My Data).
 
 7. DATA SUBJECT RIGHTS
 You have the right to:
@@ -44,7 +48,7 @@ To exercise your rights: mikhailpitolin@gmail.com
 8.3. Consent may be withdrawn at any time through the app settings.
 
 9. AGE RESTRICTIONS
-TrustNode is intended for individuals over the age of 16. Processing of personal data of individuals under 16 is not performed. If use by a person under 16 is detected, all such user data is immediately deleted.
+TrustNode is intended for individuals over the age of 16. Processing of personal data of individuals under 16 is not performed. On first launch, the app requests age confirmation. If use by a person under 16 is detected, all such user data is immediately deleted.
 
 10. GOVERNING LAW
 This Privacy Policy and the relationship between the operator and the user are governed by the law of the Russian Federation, including Federal Law No. 152-FZ of July 27, 2006 "On Personal Data."

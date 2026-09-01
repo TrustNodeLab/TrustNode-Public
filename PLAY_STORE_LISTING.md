@@ -19,12 +19,11 @@ TrustNode uses a multi-layered AI engine to analyze messages, calls, and screen 
 **Key Features**
 • Real-time screen monitoring — detects scams in messengers and browsers
 • Call fraud detection — identifies social engineering during phone calls
-• Voice analysis — detects voice-based fraud patterns during calls
-• URL & link scanning — checks against known phishing databases
+• Voice analysis — detects voice-based fraud patterns during calls (on-device speech-to-text)
+• URL & link scanning — local heuristics and blocklists, no external services
 • BERT AI model — on-device neural network for text fraud detection
 • 4 on-device education cards for fraud awareness (phishing, online safety, scam calls, banking)
 • Accessibility-focused interface with elderly mode
-• VPN tunnel — encrypted connection protection
 • No account required — all data stays on your device
 
 **Permissions Required**
